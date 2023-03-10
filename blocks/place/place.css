@@ -9,3 +9,7 @@
   margin-bottom: 80px;
   max-width: 984px;
 }
+
+.place:last-of-type {
+  margin-bottom: 0;
+}

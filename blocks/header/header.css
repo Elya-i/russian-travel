@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end; 
-  align-self: center;
   max-width: 1184px;
   padding-top: 28px; 
   width: calc(100% - 48px); 

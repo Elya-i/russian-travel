@@ -1,9 +1,9 @@
 .place__paragraph {
   font-weight: normal;
   font-size: 18px;
-  line-height: 29px;
+  line-height: 163%;
   grid-area: paragraph;
-  margin-top: 36px;
+  margin: 26px 0 0;
 }
 
 .place__paragraph:first-of-type {

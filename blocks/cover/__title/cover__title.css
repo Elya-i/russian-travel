@@ -3,8 +3,8 @@
   margin: 245px auto 32px auto;
   font-weight: 900;
   font-size: 72px;
-  line-height: 78px;
+  line-height: 106%;
   color: #ffffff;
   text-align: center;
-  z-index: 3;
+  z-index: 1;
 }
