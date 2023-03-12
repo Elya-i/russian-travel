@@ -1,11 +1,13 @@
 .place__two-paragraphs {
-  max-width: 484px;
-  margin: 0;
+  min-width: 288px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 767px) {
   .place__two-paragraphs {
-    margin: 0 16px 0;
-    width: 90%;
+    gap: 25px;
+    padding: 0 16px;
   }
 }

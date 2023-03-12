@@ -1,27 +1,6 @@
 .photo-grid__item {
-  width: 284px;
-  height: 213px;
-  object-fit: cover;
-  object-position: center;
-}
-
-@media screen and (max-width: 1024px) {
-  .photo-grid__item {
-    width: 300px;
-    height: 200px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .photo-grid__item {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .photo-grid__item {
-    width: 288px;
-    height: auto;
-  }
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
 }
