@@ -2,8 +2,30 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end; 
-  max-width: 1184px;
+  width: 92.5%;
   padding-top: 28px; 
-  width: calc(100% - 48px); 
+  width: calc(100% - 96px); 
 }
 
+@media screen and (max-width: 1024px) {
+  .header {
+     width: 91%;
+     width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+     width: 93.7%;
+     width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+     padding-top: 16px;
+     width: 90%;
+     width: calc(100% - 32px);
+     align-items: center;
+  }
+}

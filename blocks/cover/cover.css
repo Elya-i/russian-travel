@@ -7,5 +7,17 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  margin-bottom: 92px;
+  margin: 92px auto 92px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin: 90px auto 88px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    margin: 66px auto 64px auto;
+  }
 }
