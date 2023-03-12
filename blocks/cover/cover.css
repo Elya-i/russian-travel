@@ -1,10 +1,7 @@
 .cover {
   width: 93%;
   position: relative;
-  background: url(../../../images/trains.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: url(../../../images/trains.jpg) no-repeat cover/center;
   position: relative;
   z-index: 1;
   margin: 92px auto 92px auto;

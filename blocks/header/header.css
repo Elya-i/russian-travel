@@ -4,28 +4,24 @@
   align-items: flex-end; 
   width: 92.5%;
   padding-top: 28px; 
-  width: calc(100% - 96px); 
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-     width: 91%;
-     width: calc(100% - 48px);
+    width: 91%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-     width: 93.7%;
-     width: calc(100% - 48px);
+    width: 93.7%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
-     padding-top: 16px;
-     width: 90%;
-     width: calc(100% - 32px);
-     align-items: center;
+    padding-top: 16px;
+    width: 90%;
+    align-items: center;
   }
 }
