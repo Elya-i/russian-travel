@@ -3,3 +3,15 @@
   line-height: 112%;
   margin-right: 18px;
 }
+
+@media screen and (max-width: 567px) {
+  .footer__links-list{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+      
+  .footer__link-list:last-child{
+    margin-bottom: 0;
+  }
+}

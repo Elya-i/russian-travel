@@ -6,3 +6,10 @@
   margin: 0;
   margin-bottom: 24px;
 }
+
+@media screen and (max-width: 567px) {
+  .footer__copyright {
+    text-align: left;
+    line-height: 100%;
+  }
+}
