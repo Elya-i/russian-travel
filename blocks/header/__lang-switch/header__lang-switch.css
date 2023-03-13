@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 320px) {
   .header__lang-menu {
     align-items: center;
     margin: 10px 0 0;

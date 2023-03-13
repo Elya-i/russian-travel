@@ -3,12 +3,6 @@
   align-self: end;
 }
 
-@media screen and (max-width: 576px) {
-  .place__website {
-    margin-left: 18px;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .place__website {
     margin-left: 16px;
