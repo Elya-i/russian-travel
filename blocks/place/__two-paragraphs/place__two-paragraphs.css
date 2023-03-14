@@ -5,10 +5,11 @@
   gap: 26px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place__two-paragraphs {
     padding: 0;
     max-width: 288px;
-    margin: 0 auto;
+    gap: 25px;
+    margin: 0 16px 0 16px;
   }
 }
