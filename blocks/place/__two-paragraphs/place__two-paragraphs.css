@@ -1,5 +1,5 @@
 .place__two-paragraphs {
-  max-width: 484px;
+  min-width: 288px;
   display: flex;
   flex-direction: column;
   gap: 26px;
@@ -7,9 +7,7 @@
 
 @media screen and (max-width: 767px) {
   .place__two-paragraphs {
-    padding: 0;
-    max-width: 288px;
     gap: 25px;
-    margin: 0 16px 0 16px;
+    padding: 0 16px;
   }
 }
